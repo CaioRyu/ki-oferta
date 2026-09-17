@@ -1,19 +1,15 @@
-function navbar(menu){
-    const nav = document.getElementById("navbar")
-    nav.innerHTML = `
-    <nav>
-        <ul class="menu-nav">
-            ${
-                menu.map(item => {
-                    console.log(item)
-                    return `<li>
-                                <a href="${item.url}">${item.label}</a>                    
-                            <li>`
-                }
-                ).join('')
-            }
-        </ul>
-    </nav>
-    `
+function navbar(item_menu){
+const navbar = document.getElementById('navbar');
+navbar.innerHTML = `
+<nav class="navbar">
+        ${
+            item_menu.filter(menu=> menu.label !== "")
+            .map((item)=>{
+                return `<li><a href="${item.url}" class="navbar-item">${item.label}</a></li>`
+            }).join('')
+        }
+</nav>`;
+
 }
-export {navbar}
+
+export { navbar };
