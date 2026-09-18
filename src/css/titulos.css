@@ -1,0 +1,15 @@
+.titulo-pagina {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-family: system-ui;
+
+}
+
+.subtitulo{
+    font-size: 1rem;
+    font-weight: normal;
+    padding-left: 10px;
+    margin-bottom: 0.5rem;
+    font-family: system-ui;
+}

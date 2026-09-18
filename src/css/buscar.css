@@ -4,9 +4,18 @@
 }
 
 #input-busca {
-  padding-left: 26px;
+  padding-left: 10px;
 }
 
 .busca-atencao {
   color: #6c757d;
+  margin: 2px;
 }
+
+.subtitulo-buscar {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  font-family: system-ui;
+}
+
