@@ -6,14 +6,14 @@ function navbar(item_menu) {
     .map(
       (item) =>
         `<li class="nav-item">
-           <a href="${item.url}" class="navbar-item nav-link">${item.label}</a>
+           <a href="${item.url}" class="navbar-item">${item.label}</a>
          </li>`
     )
     .join("");
 
   navbar.innerHTML = `
-    <nav class="navbar-bottom d-flex justify-content-center align-items-center gap-1">
-      <ul class="nav list-unstyled d-flex gap-1 m-0 p-0">
+    <nav class="navbar-bottom">
+      <ul class="nav">
         ${itens}
       </ul>
     </nav>
