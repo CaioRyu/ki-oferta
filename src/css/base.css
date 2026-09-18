@@ -13,3 +13,10 @@ body {
   height: 100dvh;
    border: 1px red solid;/* borda temporaria */
 }
+
+.div-central {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

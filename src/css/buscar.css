@@ -1,4 +1,6 @@
 .container-buscar {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
   padding-bottom: 80px;
 }
@@ -28,7 +30,9 @@
 
 .busca-atencao {
   color: #6c757d;
-  margin: 2px;
+  font-size: 0.875rem;
+  font-family: system-ui;
+  margin-bottom: 10px;
 }
 
 .subtitulo-buscar {
