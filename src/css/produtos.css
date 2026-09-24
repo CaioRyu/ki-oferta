@@ -36,6 +36,13 @@
   border-bottom: 1px solid #000000;
 }
 
+.back-btn{
+    padding: 2px;
+    margin-right: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .form-busca-produtos {
   display: flex;
   flex-direction: row;
@@ -51,8 +58,8 @@
   width: 100%;
   border: 2px solid #000000;
   border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .btn-produtos {

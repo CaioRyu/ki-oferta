@@ -15,6 +15,7 @@ function produtos(app) {
     <div class="container-produtos">
         <div class="card-produtos">
             <header class="header-produtos">
+                <p class="back-btn" id="back-btn"> < </p>
                 <form class="form-busca-produtos" id="form-busca-produtos">
                     <input
                         id="input-busca-produtos"
