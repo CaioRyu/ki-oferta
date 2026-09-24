@@ -1,29 +1,29 @@
 .navbar-bottom{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style-type: none;
-  gap: 12%;
   position: fixed;
   bottom: 0;
   width: 440px;
   height: 60px;
   border-top: 1px solid #da9797;
+  background-color: blue;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-bottom: 15px;
   gap: 15px;
 }
 
 .navbar-item {
   text-decoration: none;
-  color: #5a5959;
+  color: white;
 }
 
 .navbar-item:hover {
-  border-top: 2px solid #3165d5;
+  border-top: 2px solid white;
 }
