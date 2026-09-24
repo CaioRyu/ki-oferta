@@ -12,11 +12,27 @@ const listaDeProdutos = [
 ]
 function produtos(app) {
     app.innerHTML = `
-    <div>
-    <h1>Página produtos</h1>
-    ${
-        listaDeProdutos.map(item=> `Nome: ${item.nome} Preço:${item.preco } Distância:${item.distancia} ` ).join('<br>')
-    }
+    <div class="container-produtos">
+        <div class="card-produtos">
+            <header class="header-produtos">
+                <form class="form-busca-produtos" id="form-busca-produtos">
+                    <input
+                        id="input-busca-produtos"
+                        type="search"
+                        class="input-busca-produtos"
+                        placeholder="Digite um produto..."
+                        aria-label="Buscar produto"
+                    />
+                    <button id="btn-busca" class="btn" type="submit">Buscar</button>
+                </form>
+            </header>
+            ${
+               listaDeProdutos.map(item=> `
+                <div class="item-produtos"> 
+                    Nome: ${item.nome} Preço:${item.preco } Distância:${item.distancia}
+                </div> ` ).join('<br>')
+            }
+        </div>
     </div>`
     window.location.hash = "#produtos"
 }
