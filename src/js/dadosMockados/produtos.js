@@ -26,6 +26,10 @@ function produtos(app) {
                     <button id="btn-busca-produtos" class="btn-produtos" type="submit">Buscar</button>
                 </form>
             </header>
+
+            <div class="mercados-produtos">
+                <p class="descricao-mercado-produtos">3 produtos - 2 mercados</p>
+            </div>
             ${
                listaDeProdutos.map(item=> `
                 <div class="item-produtos">

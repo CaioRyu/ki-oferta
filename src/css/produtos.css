@@ -72,6 +72,25 @@
   cursor: pointer;
 }
 
+.mercados-produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 0 2px #000000;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.descricao-mercado-produtos {
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-family: system-ui;
+    padding-left: 5px;
+}
+
 .item-produtos {
   display: flex;
   flex-direction: row;
