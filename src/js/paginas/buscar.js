@@ -1,48 +1,48 @@
 import produtos from '../dadosMockados/produtos.js'
 function buscar(app){
     app.innerHTML = `
-        <div class="container-buscar">
-            <h2>Radar de Promoções</h2>
-            <p class="subtitulo-buscar"> O que Você quer Comprar mais barato?</p>
-            <div class="grupo-input">
-            <label for="input-busca"><i data-lucide="search" id="icone-busca"></i> </label>
-                <input 
-                    type="text" 
-                    id="input-busca" 
-                    placeholder="Produto ou marca"
-                    aria-label="campo busca de produto"
-                >
-                <button id="btn-busca"> 
-                    <i data-lucide="arrow-right"></i>
-                </button>
-                
-            </div>
-            <p class="busca-atencao">Preços da semana de 10 a 16 de agosto, enviado por que mestá no mercado</p>
-            <div class="categorias-busca">
-                <p>Categoria</p>
-                <ul class="categoria-lista">
-                    <li class="lista-categoria">
-                        Mercearia
-                    </li>
-                    <li class="lista-categoria">
-                        Carnes
-                    </li>
-                    <li class="lista-categoria">
-                        Hortifrúti
-                    </li>
-                    <li class="lista-categoria">
-                        Bebidas
-                    </li>
-                    <li class="lista-categoria">
-                        Limpeza
-                    </li>
-                    <li class="lista-categoria">
-                        Higiene
-                    </li>
-                </ul>
-            </div>
-
+        <section class="container-buscar">
+        <h4 class="titulo-pagina">Radar de Promoções</h4>
+        <h2 class="subtitulo-buscar">O que você quer comprar mais barato?</h2>
+      
+        <form class="form-busca" id="form-busca">
+          <input
+            id="input-busca"
+            type="search"
+            class="input-busca"
+            placeholder="Digite um produto..."
+            aria-label="Buscar produto"
+          />
+          <button id="btn-busca" class="btn" type="submit">Buscar</button>
+        </form>
+        
+        
+        <div class="div-central">
+          <p class="busca-atencao">Ofertas de 10 a 16 de agosto, enviado por quem está no mercado.</p>
         </div>
+        
+        <div class="div-central">
+          <h6 class="subtitulo">
+            Categorias
+          </h6>
+        </div>
+      
+        <div class="categorias-busca" id="categorias-busca">
+            <div class="categoria" data-categoria="bebidas">
+            <span>Bebidas</span>
+            </div>
+            <div class="categoria" data-categoria="alimentos">
+              <span>Alimentos</span>
+            </div>
+            <div class="categoria" data-categoria="higiene">
+              <span>Higiene</span>
+            </div>
+            <div class="categoria" data-categoria="limpeza">
+              <span>Limpeza</span>
+            </div>        
+        </div>
+
+      </section>
 
     `
     adicionarEvento(app)
