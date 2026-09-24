@@ -16,7 +16,6 @@ function renderizarPagina() {
 
 btnBusca.addEventListener("click", ()=>{
     window.location.hash = "#buscar"
-    renderizarPagina()
 })
 
 window.addEventListener("hashchange", ()=>{
