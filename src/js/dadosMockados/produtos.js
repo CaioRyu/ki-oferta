@@ -29,6 +29,11 @@ function produtos(app) {
 
             <div class="mercados-produtos">
                 <p class="descricao-mercado-produtos">3 produtos - 2 mercados</p>
+
+                <div class="filtros-produtos">
+                    <p class="filtro-produto">Preço</p>
+                    <p class="filtro-produto">Distância</p>
+                </div>
             </div>
             ${
                listaDeProdutos.map(item=> `
