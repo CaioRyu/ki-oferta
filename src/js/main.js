@@ -2,6 +2,7 @@ import { mapaderotas } from './rotas/rotas.js'
 import { navbar } from './navbar/navbar.js'
 
 const app = document.getElementById("app")
+const btnBusca = document.getElementById("btn-busca")
 navbar(mapaderotas)
 
 function renderizarPagina() {
@@ -12,6 +13,12 @@ function renderizarPagina() {
         rota.pagina(app)
     }
 }
+
+btnBusca.addEventListener("click", ()=>{
+    window.location.hash = "#buscar"
+    renderizarPagina()
+})
+
 window.addEventListener("hashchange", ()=>{
     renderizarPagina()
 })
