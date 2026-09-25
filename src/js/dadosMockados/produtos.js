@@ -1,13 +1,13 @@
 
 const listaDeProdutos = [
     {
-     nome: "café", preco: 12.50, distancia: 600
+     img: "https://cdn.awsli.com.br/600x700/1775/1775051/produto/134339416/7896005800027-v08okqogqa.png",nome: "café três corações", preco: 12.50, distancia: 600
     },
     {
-     nome: "café", preco: 9.50, distancia: 2000
+     img: "https://cdn.awsli.com.br/600x700/1775/1775051/produto/134339416/7896005800027-v08okqogqa.png", nome: "café pilão", preco: 9.50, distancia: 2000
     },
     {
-     nome: "café", preco: 16.50, distancia: 200
+     img: "https://cdn.awsli.com.br/600x700/1775/1775051/produto/134339416/7896005800027-v08okqogqa.png", nome: "café expresso", preco: 16.50, distancia: 200
     }
 ]
 function produtos(app) {
@@ -41,7 +41,7 @@ function produtos(app) {
                 <div class="item-produtos">
                     <div class="descricao-produto">
                         <div class="imagem-produto">
-                            <img class="imagem-produto" src="./assets/icon/favicon.ico" />
+                            <img class="imagem-produto" src="${item.img}" />
                         </div>
                         <div class="detalhes-produto">
                         <p class="nome-produto"> ${item.nome} </p>
