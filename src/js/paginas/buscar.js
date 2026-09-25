@@ -6,6 +6,7 @@ function buscar(app){
         <h2 class="subtitulo-buscar">O que você quer comprar mais barato?</h2>
       
         <form class="form-busca" id="form-busca">
+          <label for="input-busca"><i data-lucide="search" id="icone-busca"></i></label>
           <input
             id="input-busca"
             type="search"
@@ -13,7 +14,9 @@ function buscar(app){
             placeholder="Digite um produto..."
             aria-label="Buscar produto"
           />
-          <button id="btn-busca" class="btn" type="submit">Buscar</button>
+          <button id="btn-busca" class="btn" type="submit">
+            <i data-lucide="arrow-right"></i>
+          </button>
         </form>
         
         
