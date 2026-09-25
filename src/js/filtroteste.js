@@ -16,5 +16,5 @@ const livros = [
     }
 ];
 
-const livroselecionado = livros.filter(livro => livro.preco >= 20)
-console.log(livroselecionado)
+const livroSelecionado = livros.filter(livro => livro.preco >= 20)
+console.log(livroSelecionado)

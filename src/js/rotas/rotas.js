@@ -4,7 +4,7 @@ import mapa from '../paginas/mapa.js'
 import favorito from '../paginas/favorito.js'
 import conta from '../paginas/conta.js'
 
-const mapaderotas = [
+const mapaDeRotas = [
     buscar,
     mapa,
     enviar,
@@ -12,4 +12,4 @@ const mapaderotas = [
     conta
 ];
 
-export { mapaderotas };
+export { mapaDeRotas };

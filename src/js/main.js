@@ -1,14 +1,14 @@
 import { icons, createIcons} from 'Lucide';
-import { mapaderotas } from './rotas/rotas.js'
+import { mapaDeRotas } from './rotas/rotas.js'
 import { navbar } from './navbar/navbar.js'
 
 const app = document.getElementById("app")
 const btnBusca = document.getElementById("btn-busca")
-navbar(mapaderotas)
+navbar(mapaDeRotas)
 
 function renderizarPagina() {
     const hash = window.location.hash || '#home'
-    const rota  = mapaderotas.find(tela => tela.url === hash)
+    const rota  = mapaDeRotas.find(tela => tela.url === hash)
     console.log(rota)
     if (rota) {
         rota.pagina(app)
