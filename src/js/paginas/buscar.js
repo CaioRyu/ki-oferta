@@ -68,4 +68,4 @@ export default {
     label: "buscar",
     icon: "search",
     pagina: buscar
-}
+};

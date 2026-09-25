@@ -3,4 +3,9 @@ async function conta(app) {
   
   `;
 }
-export default { url: '#conta', label: 'conta', icon: "user-round-arrow-left", pagina: conta };
+export default { 
+  url: '#conta', 
+  label: 'conta', 
+  icon: "user-round-arrow-left", 
+  pagina: conta 
+};

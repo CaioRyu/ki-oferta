@@ -10,6 +10,6 @@ const mapaderotas = [
     enviar,
     favorito,
     conta
-]
+];
 
-export { mapaderotas }
+export { mapaderotas };
