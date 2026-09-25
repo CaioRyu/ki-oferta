@@ -1,3 +1,4 @@
+import listaDeProdutos from "../../dadosMockados/dados.js";
 function produtos(app) {
     app.innerHTML = `
     <div class="container-produtos">
