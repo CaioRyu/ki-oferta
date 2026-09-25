@@ -24,6 +24,14 @@
   color: white;
 }
 
+.navbar-item__icon{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 42px;
+    font-size: 1.2rem;
+}
+
 .navbar-item:hover {
   border-top: 2px solid white;
 }

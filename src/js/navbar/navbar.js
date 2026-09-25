@@ -7,7 +7,7 @@ function navbar(item_menu) {
       item_menu.filter(menu => menu.label !== "")
       .map((item) =>{
         return `<li> 
-           <a href="${item.url}" class="navbar-item">
+           <a href="${item.url}" class="navbar-item navbar-item__icon">
            <i data-lucide="${item.icon}"></i>
            ${item.label}</a>
          </li>`
