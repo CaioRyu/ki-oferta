@@ -1,4 +1,4 @@
-import produtos from '../dadosMockados/produtos.js'
+import produtos from '../dadosMockados/dados.js'
 function buscar(app){
     app.innerHTML = `
         <section class="container-buscar">
