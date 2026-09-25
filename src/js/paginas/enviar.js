@@ -23,4 +23,4 @@ async function enviar(app) {
       <button type="submit">Enviar promoção</button>
     </form>`;
 }
-export default { url: '#enviar', label: 'Enviar', pagina: enviar };
+export default { url: '#enviar', label: 'Enviar', icon: "arrow-up-from-line", pagina: enviar };
