@@ -7,7 +7,7 @@
 
 .input-busca {
   padding-left: 10px;
-  height: 25px;
+  height: 40px;
   width: 100%;
   border: 2px solid #000000;
   border-radius: 5px;
@@ -25,7 +25,7 @@
 .btn{
   padding: 5px 10px;
   background-color: #00277a;
-  height: 25px;
+  height: 40px;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -57,6 +57,16 @@ form.form-busca {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  padding: 10px;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding-top: 25px;
 }
 
 .categorias-busca {

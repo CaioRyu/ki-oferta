@@ -1,4 +1,4 @@
-import { icons, createIcons} from 'Lucide';
+import { icons, createIcons} from 'lucide';
 import { mapaDeRotas } from './rotas/rotas.js'
 import { navbar } from './navbar/navbar.js'
 
