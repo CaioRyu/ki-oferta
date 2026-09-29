@@ -13,7 +13,7 @@ function produtos(app) {
                         placeholder="Digite um produto..."
                         aria-label="Buscar produto"
                     />
-                    <button id="btn-busca-produtos" class="btn-produtos" type="submit">Buscar</button>
+                    <button id="btn-busca-produtos" class="btn-produtos" type="submit"><i data-lucide="arrow-right"></i></button>
                 </form>
             </header>
 

@@ -21,6 +21,8 @@ btnBusca.addEventListener("click", ()=>{
 
 window.addEventListener("hashchange", ()=>{
     renderizarPagina()
+    createIcons({icons});
 })
+
 renderizarPagina()
 createIcons({icons});

@@ -3,13 +3,15 @@ import enviar from '../paginas/enviar.js'
 import mapa from '../paginas/mapa.js'
 import favorito from '../paginas/favorito.js'
 import conta from '../paginas/conta.js'
+import produtos from '../paginas/produtos/produtos.js'
 
 const mapaDeRotas = [
     buscar,
     mapa,
     enviar,
     favorito,
-    conta
+    conta,
+    produtos
 ];
 
 export { mapaDeRotas };
