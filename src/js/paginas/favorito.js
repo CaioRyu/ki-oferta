@@ -3,7 +3,7 @@ async function favorito(app) {
 }
 export default { 
   url: '#favorito', 
-  label: 'favorito', 
+  label: 'Favorito', 
   icon: "bookmark", 
   pagina: favorito 
 };

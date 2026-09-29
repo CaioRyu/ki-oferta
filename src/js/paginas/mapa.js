@@ -3,7 +3,7 @@ async function mapa(app) {
 }
 export default { 
   url: '#mapa', 
-  label: 'mapa', 
+  label: 'Mapa', 
   icon: "map", 
   pagina: mapa 
 };
