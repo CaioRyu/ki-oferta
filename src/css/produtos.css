@@ -118,6 +118,12 @@
     font-family: system-ui;
 }
 
+.filtro-produto:hover{
+    border-color: blue;
+    color: blue;
+    cursor: pointer;
+}
+
 .item-produtos {
   display: flex;
   flex-direction: row;
@@ -131,6 +137,11 @@
   border-radius: 10px;
     background-color: #ffffff;
   box-shadow: 0 0 3px #000000;
+}
+
+.item-produtos:hover {
+  background-color: #dddcdc;
+  cursor: pointer;
 }
 
 .descricao-produto {
