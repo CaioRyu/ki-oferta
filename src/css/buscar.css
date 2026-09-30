@@ -57,7 +57,9 @@ form.form-busca {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  padding: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(211, 211, 211);
 }
 
 .form-label {
@@ -76,12 +78,17 @@ form.form-busca {
   gap: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(211, 211, 211);
+  box-shadow: 0 0 2px #000000;
 }
 
 .categoria{
   border: 3px solid #000000;
   border-radius: 5px;
   width: 100%;
+  background-color: #ffffff;
   padding: 10px 20px;
 }
 
